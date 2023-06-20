@@ -1,5 +1,10 @@
+import OtherModule
+
 public struct ExampleModule {
-    public private(set) var text = "Hello, World!"
+    
+    private static let otherModule = OtherModule()
+    
+    public var text: String { ExampleModule.otherModule.text }
 
     public init() {
     }

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		447102182A39B5A700B7A731 /* ExampleModule in Frameworks */ = {isa = PBXBuildFile; productRef = 447102172A39B5A700B7A731 /* ExampleModule */; };
+		44D071372A41A54F007AE461 /* ExampleModule in Frameworks */ = {isa = PBXBuildFile; productRef = 44D071362A41A54F007AE461 /* ExampleModule */; };
 		44DFE3002A38A704006E8FC3 /* SPMPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DFE2FF2A38A704006E8FC3 /* SPMPlaygroundApp.swift */; };
 		44DFE3022A38A704006E8FC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DFE3012A38A704006E8FC3 /* ContentView.swift */; };
 		44DFE3042A38A706006E8FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DFE3032A38A706006E8FC3 /* Assets.xcassets */; };
@@ -37,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		447102162A39B59300B7A731 /* ExampleModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ExampleModule; path = Modules/ExampleModule; sourceTree = "<group>"; };
+		44D071382A41A645007AE461 /* OtherModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = OtherModule; path = Modules/OtherModule; sourceTree = "<group>"; };
 		44DFE2FC2A38A704006E8FC3 /* SPMPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPMPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DFE2FF2A38A704006E8FC3 /* SPMPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMPlaygroundApp.swift; sourceTree = "<group>"; };
 		44DFE3012A38A704006E8FC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,7 +56,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44DFE32E2A38A7A5006E8FC3 /* Algorithms in Frameworks */,
-				447102182A39B5A700B7A731 /* ExampleModule in Frameworks */,
+				44D071372A41A54F007AE461 /* ExampleModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +138,7 @@
 		44DFE3342A38AC0D006E8FC3 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				44D071382A41A645007AE461 /* OtherModule */,
 				447102162A39B59300B7A731 /* ExampleModule */,
 			);
 			name = Packages;
@@ -167,7 +169,7 @@
 			name = SPMPlayground;
 			packageProductDependencies = (
 				44DFE32D2A38A7A5006E8FC3 /* Algorithms */,
-				447102172A39B5A700B7A731 /* ExampleModule */,
+				44D071362A41A54F007AE461 /* ExampleModule */,
 			);
 			productName = SPMPlayground;
 			productReference = 44DFE2FC2A38A704006E8FC3 /* SPMPlayground.app */;
@@ -625,7 +627,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		447102172A39B5A700B7A731 /* ExampleModule */ = {
+		44D071362A41A54F007AE461 /* ExampleModule */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ExampleModule;
 		};

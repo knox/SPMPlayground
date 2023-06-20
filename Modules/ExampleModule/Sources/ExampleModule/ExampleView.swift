@@ -2,10 +2,12 @@ import SwiftUI
 
 public struct ExampleView: View {
 
+    private static let exampleModule = ExampleModule()
+    
     public init() {}
     
     public var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(ExampleView.exampleModule.text)
     }
 }
 
