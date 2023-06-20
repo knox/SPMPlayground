@@ -1,6 +1,3 @@
 public struct OtherModule {
-    public private(set) var text = "Hello, other World!"
-
-    public init() {
-    }
+    public static let animals = ["dog", "pig", "cat", "ox", "cow", "owl"]
 }

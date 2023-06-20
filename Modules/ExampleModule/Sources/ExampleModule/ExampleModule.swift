@@ -1,11 +1,10 @@
+import Algorithms
 import OtherModule
 
 public struct ExampleModule {
     
-    private static let otherModule = OtherModule()
-    
-    public var text: String { ExampleModule.otherModule.text }
+    public var text: String { OtherModule.animals.uniqued(on: { $0.first }).joined(separator: ", ") }
 
-    public init() {
-    }
+    public init() { }
+                                                          
 }

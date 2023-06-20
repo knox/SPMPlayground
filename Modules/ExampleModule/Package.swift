@@ -22,7 +22,10 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "ExampleModule",
-            dependencies: ["OtherModule"]),
+            dependencies: [
+                .product(name: "Algorithms", package: "swift-algorithms"),
+                "OtherModule"
+            ]),
         .testTarget(
             name: "ExampleModuleTests",
             dependencies: ["ExampleModule"]),
